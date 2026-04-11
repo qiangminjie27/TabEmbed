@@ -1,0 +1,67 @@
+# Data
+data/
+*.parquet
+*.tar
+*.zip
+
+# Results & Outputs
+results/
+outputs/
+trained_models/
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Checkpoints
+*.ckpt
+*.pt
+*.bin
+checkpoint-*/
+
+# HF dataset card (maintained separately)
+hf_dataset_card/
+
+# Training code (to be released later)
+src/train.py
+src/process_data.py
+src/extract_zips.py
+scripts/train.sh
+scripts/process_data.sh
+scripts/extract_zips.sh
+configs/
+
+# Utility scripts (not for release)
+scripts/compare_datasets.py
+scripts/diagnose_query.py
+
+# Misc
+nul
+README_full.md
