@@ -58,10 +58,5 @@ scripts/process_data.sh
 scripts/extract_zips.sh
 configs/
 
-# Utility scripts (not for release)
-scripts/compare_datasets.py
-scripts/diagnose_query.py
-
 # Misc
-nul
 README_full.md
