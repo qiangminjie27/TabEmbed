@@ -128,7 +128,18 @@ python src/run_benchmark.py \
 
 If you use TabEmbed or TabBench in your research, please cite:
 
-> Paper coming soon. Please check back later for the BibTeX citation.
+```bibtex
+@misc{qiang2026tabembedbenchmarkinglearninggeneralist,
+      title={TabEmbed: Benchmarking and Learning Generalist Embeddings for Tabular Understanding}, 
+      author={Minjie Qiang and Mingming Zhang and Xiaoyi Bao and Xing Fu and Yu Cheng and Weiqiang Wang and Zhongqing Wang and Ningtao Wang},
+      year={2026},
+      eprint={2605.04962},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.04962}, 
+}
+```
+
 
 ## Acknowledgements
 
